@@ -72,7 +72,6 @@ const compareHands = (playerChoice, computerChoice) =>{
 			return;
 		}
 	}
-	
 	if(playerChoice === "paper"){
 		if(computerChoice === "rock"){
 			winner.textContent = "Player Wins!"
